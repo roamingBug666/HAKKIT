@@ -28,43 +28,40 @@ set flash=0
 
 :: START DAT ACTION!!!
 :: a noice logo go first
-echo    �                                                                                           �
-echo   ���                                                                                         ���
-echo   ����                                                                                       ����
-echo   �����                                                                                     �����
-echo  ���۱�                                                                                     ��۲��
-echo  �۲��  ���    ���     ���     ���    ��� ���    ��� �����������������    ��������    ���    ���۱
-echo ܰ�۲�� ���    ���   ��� ���   ���   ���  ���   ���    ���      ���      ���    ��� �����   ܰ�۲��
-echo ������� ���    ���  ���   ���  ���  ���   ���  ���     ���      ���      ���          ���   �������
-echo  �  �  �۲����۲� �۲����۲�� �۲����    �۲����      �۲      �۲      �۲����۲�   �۲    �  �
-echo  ���  �۲    �۲ �۲     �۲ �۲  �۲   �۲  �۲     �۲      �۲             �۲   �۲    ���
-echo  �  �  ۲�    ۲� ۲�     ۲� ۲�   ۲�  ۲�   ۲�    ۲�      ۲�      ۲�    ۲�   ۲�    �  �
-echo ������� ���    ��� ���     ��� ���    ��� ���    ��� �������    ���       ��������  ������� �������
-echo ���������������������������������������������������������������������������������������������������
+echo    °                                                                                           °
+echo   °±°                                                                                         °±°
+echo   ±°±°                                                                                       °±°±
+echo   °±²±°                                                                                     °±²±°
+echo  °±²Û±°                                                                                     °±Û²±°
+echo  ±Û²±°  ±±±    ±±±     ±±±     ±±±    ±±± ±±±    ±±± ±±±±±±±±±±±±±±±±±    ±±±±±±±±    ±±±    °±²Û±
+echo Ü°²Û²°Ü ±²±    ±²±   ±²± ±²±   ±²±   ±²±  ±²±   ±²±    ±²±      ±²±      ±²±    ±²± ±²±²±   Ü°²Û²°Ü
+echo ÛßßßßßÛ ²±²    ²±²  ²±²   ²±²  ²±²  ²±²   ²±²  ²±²     ²±²      ²±²      ²±²          ²±²   ÛßßßßßÛ
+echo  Û  Û  ²Û²²±²²Û²² ²Û²²±²²Û²²± ²Û²²±²²    ²Û²²±²²      ²Û²      ²Û²      ²Û²²±²²Û²²   ²Û²    Û  Û
+echo  ÛÛÛ  ²Û²    ²Û² ²Û²     ²Û² ²Û²  ²Û²   ²Û²  ²Û²     ²Û²      ²Û²             ²Û²   ²Û²    ÛÛÛ
+echo  Û  Û  Û²Û    Û²Û Û²Û     Û²Û Û²Û   Û²Û  Û²Û   Û²Û    Û²Û      Û²Û      Û²Û    Û²Û   Û²Û    Û  Û
+echo ÛÜÜÜÜÜÛ ÛÛÛ    ÛÛÛ ÛÛÛ     ÛÛÛ ÛÛÛ    ÛÛÛ ÛÛÛ    ÛÛÛ ÛÛÛÛÛÛÛ    ÛÛÛ       ÛÛÛÛÛÛÛÛ  ÛÛÛÛÛÛÛ ÛÜÜÜÜÜÛ
+echo ÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜ
 
 :: cool uplifting text
 echo.
-echo � Welcome, King of Chaos.
-echo � Current version: %version% (%dateversion%) s1.
-echo � Choose an option!
-echo � Happy Hacking, Pranking, and Trolling!
-echo.
-echo Note: hey alec, go over to the README first pls (type "2" then ENTER)
-echo.
-echo �
+echo É Welcome, King of Chaos.
+echo Ì Current version: %version% (%dateversion%) s1.
+echo Ì Choose an option!
+echo Ì Happy Hacking, Pranking, and Trolling!
+echo º
 
 :: the actual menu
 :menu
-echo � Menu �����������������������������
-echo ������˼
-echo � 1 � Execute a virus
-echo � 2 � Read the README
-echo � 3 � Read the License
-echo � 4 � Settings
-echo � 5 � Get time
-echo � 6 � Control Panel S2
-echo � 7 � Quit
-echo �����ļ
+echo º Menu ÉÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+echo ÌÄÄÄÄÄË¼
+echo º 1 º Execute a virus
+echo º 2 º Read the README
+echo º 3 º Read the License
+echo º 4 º Wiring Panel
+echo º 5 º Get time
+echo º 6 º Control Panel S2
+echo º 7 º Quit
+echo ÈÄÄÄÄÄ¼
 echo.
 set choice=0
 :: yes yes yea ik its a horrible pun
@@ -142,32 +139,32 @@ echo Note: None can harm the computer.
 echo The number at the left is the controlability, ranked 3 (close button), 2 (task manager), 1 (Alt+F4), 0 (Unclosable).
 echo The number at the right is the Annoy-o-Meter, ranked 1-5.
 echo.
-echo ����������Ļ
-echo �2� 01 �5� Naughty Windows - Error messages that disappear and crash!
-echo �0� 02 �5� Crasher Windows - Spawns cmd windows until computer *CRASHES*
-echo �3� 03 �1� Matrix - A very cool cmd window that spews random numbers forever
-echo �0� 04 �3� Restart - Makes your computer restart. DUH DUH DUH
-echo �0� 05 �3� Forced landing - Makes your computer shutdown.
-echo �2� 06 �4� Beepparty - Makes da computer BEEP (Windows Vista or prior).
-echo �3� 07 �3� Flashin - Makes ya screen do da flash foreveranever!
-echo �1� 08 �5� BLUERIP - Display a beeyootiful BLUE SCREEN OF DEATH
-echo �2� 09 �4� dontdiedude - An unclosable series of alarm windows.
-echo �3� 10 �4� Mega Flash Color - FLASH the screens bright colors!
-echo �0� 11 �5� Crasher Matrix - Mix of Crasher Windows (2) and Matrix (3)!
-echo �2� 12 �4� DVD Takeover - DVD Reader keeps popping out!
-echo �3� 13 �4� EvilAI - Realistic looking virus! And then shutdown!
-echo �3� 14 �4� NOOB Party - A cool disco party! With funny messages!
-echo �1� 15 �2� GEFRAFT - Dangerous looking virus, resistant to alt f4
-echo �1� 16 �2� Blank - Need to urgently blank out your screen?
-echo �1� 17 �5� WBSOD - Seriously freaker-outer supreme... BSOD gone lunatic.
-echo �2� 18 �3� CAPSLOCKED - Caps lock switching every few seconds... CRASY!
-echo �3� 19 �2� SuperMe - Flashin logo lets goooo!!
-echo �0� 20 �5� FLOPSUCKER_TREMENDIS - Horrible. HORRIBLE. Only open in emergencies!
-echo �1� 21 �4� CRACKET - Cracked screen simulator! Everyone go screeeeaaaam!
-echo �0� 22 �5� Startalotta - Starts a ton of programs until computer CRASHES
-echo �0� 23 �5� EnterBug - types the Enter key and types "enter" every x time.
-echo �3� 24 �5� JunpScare - Generates a maze game that suddendly jumpscares RLY BAD!
-echo ����������ļ
+echo ÉÄËÄÄÄÄÄÄËÄ»
+echo º2º 01 º5º Naughty Windows - Error messages that disappear and crash!
+echo º0º 02 º5º Crasher Windows - Spawns cmd windows until computer *CRASHES*
+echo º3º 03 º1º Matrix - A very cool cmd window that spews random numbers forever
+echo º0º 04 º3º Restart - Makes your computer restart. DUH DUH DUH
+echo º0º 05 º3º Forced landing - Makes your computer shutdown.
+echo º2º 06 º4º Beepparty - Makes da computer BEEP (Windows Vista or prior).
+echo º3º 07 º3º Flashin - Makes ya screen do da flash foreveranever!
+echo º1º 08 º5º BLUERIP - Display a beeyootiful BLUE SCREEN OF DEATH
+echo º2º 09 º4º dontdiedude - An unclosable series of alarm windows.
+echo º3º 10 º4º Mega Flash Color - FLASH the screens bright colors!
+echo º0º 11 º5º Crasher Matrix - Mix of Crasher Windows (2) and Matrix (3)!
+echo º2º 12 º4º DVD Takeover - DVD Reader keeps popping out!
+echo º3º 13 º4º EvilAI - Realistic looking virus! And then shutdown!
+echo º3º 14 º4º NOOB Party - A cool disco party! With funny messages!
+echo º1º 15 º2º GEFRAFT - Dangerous looking virus, unclosable wihout passcode
+echo º1º 16 º2º Blank - Need to urgently blank out your screen?
+echo º1º 17 º5º WBSOD - Seriously freaker-outer supreme... BSOD gone lunatic.
+echo º2º 18 º3º CAPSLOCKED - Caps lock switching every few seconds... CRASY!
+echo º3º 19 º2º SuperMe - Flashin logo lets goooo!!
+echo º0º 20 º5º FLOPSUCKER_TREMENDIS - Horrible. HORRIBLE. Only open in emergencies!
+echo º1º 21 º4º CRACKET - Cracked screen simulator! Everyone go screeeeaaaam!
+echo º0º 22 º5º Startalotta - Starts a ton of programs until computer CRASHES
+echo º0º 23 º5º EnterBug - types the Enter key and types "enter" every x time.
+echo º3º 24 º5º JunpScare - Generates a maze game that suddendly jumpscares RLY BAD!
+echo ÈÄÊÄÄÄÄÄÄÊÄ¼
 echo.
 set virusid = 0
 set /p virusid= Enter the number of the virus you want to execute, "exit", "home", or the secret easter word: 
@@ -272,13 +269,13 @@ exit
 :virus5
 set virusname=extinction-pc.bat
 echo.
-echo � Choose a type: �����������
-echo ����������������ļ
-echo � 1 � Instant
-echo � 2 � Loading bar
-echo � 3 � Shutdown in x seconds
-echo � 4 � 10s with message
-echo �����ļ
+echo º Choose a type: ÉÄÄÄÄÄÄÄÄÄÄ
+echo ÌÄÄÄÄÄËÄÄÄÄÄÄÄÄÄÄ¼
+echo º 1 º Instant
+echo º 2 º Loading bar
+echo º 3 º Shutdown in x seconds
+echo º 4 º 10s with message
+echo ÈÄÄÄÄÄ¼
 echo.
 set setsh=0
 set /p setsh=- Type here your choice: 
@@ -522,12 +519,12 @@ exit
 echo Type anything to continue! If you do not want to proceed, close the window.
 pause>nul
 cls
-echo � Crackedness: �����������
-echo ��������������ļ
-echo � 1 � Low
-echo � 2 � Medium
-echo � 3 � High 
-echo �����ļ
+echo º Crackedness: ÉÄÄÄÄÄÄÄÄÄÄ
+echo ÌÄÄÄÄÄËÄÄÄÄÄÄÄÄ¼
+echo º 1 º Low
+echo º 2 º Medium
+echo º 3 º High 
+echo ÈÄÄÄÄÄ¼
 echo.
 set setset=0
 set /p setset=- Type here your choice: 
@@ -556,12 +553,12 @@ exit
 echo Type anything to continue! If you do not want to proceed, close the window.
 pause>nul
 cls
-echo � Crazyness: �����������
-echo ��������������ļ
-echo � 1 � Low (1/10s)
-echo � 2 � Medium (1/1s)
-echo � 3 � High (10/1s)
-echo �����ļ
+echo º Crazyness: ÉÄÄÄÄÄÄÄÄÄÄ
+echo ÌÄÄÄÄÄËÄÄÄÄÄÄÄÄ¼
+echo º 1 º Low (1/10s)
+echo º 2 º Medium (1/1s)
+echo º 3 º High (10/1s)
+echo ÈÄÄÄÄÄ¼
 echo.
 set setcrz=0
 set /p setcrz=- Type here your choice: 
@@ -595,12 +592,12 @@ exit
 
 :settings
 cls
-echo � Settings �����������
-@echo ����������ļ
-echo � 1 � Theme colors
-echo � 2 � Instructions
-echo � 3 � Exit 
-echo �����ļ
+echo º Settings ÉÄÄÄÄÄÄÄÄÄÄ
+@echo ÌÄÄÄÄÄËÄÄÄÄ¼
+echo º 1 º Theme colors
+echo º 2 º Instructions
+echo º 3 º Exit 
+echo ÈÄÄÄÄÄ¼
 echo.
 set setset=0
 set /p setset=- Type here your choice: 
@@ -614,18 +611,18 @@ goto errorsettings
 
 :color
 cls
-echo � Changes will apply when you go to the home screen (you do not have to go there immediatly)
-echo � Choose a mode: �����������
-echo ����������������ļ
-echo � 1 � Dark Hacker Mode
-echo � 2 � Dark ^>_ CMD Mode
-echo � 3 � An Innocent Mode
-echo � 4 � Deep Waters Mode
-echo � 5 � Lush Forest Mode
-echo � 6 � Crazy Clown Mode
-echo � 7 � Megalomania Mode
-echo � 8 � Blood Craze Mode
-echo �����ļ
+echo º Changes will apply when you go to the home screen (you do not have to go there immediatly)
+echo º Choose a mode: ÉÄÄÄÄÄÄÄÄÄÄ
+echo ÌÄÄÄÄÄËÄÄÄÄÄÄÄÄÄÄ¼
+echo º 1 º Dark Hacker Mode
+echo º 2 º Dark ^>_ CMD Mode
+echo º 3 º An Innocent Mode
+echo º 4 º Deep Waters Mode
+echo º 5 º Lush Forest Mode
+echo º 6 º Crazy Clown Mode
+echo º 7 º Megalomania Mode
+echo º 8 º Blood Craze Mode
+echo ÈÄÄÄÄÄ¼
 echo.
 set colchoice=0
 set /p colchoice=- Type in your choice: 
@@ -675,14 +672,14 @@ goto errorcolor
 
 :_
 cls
-echo � Choose a _ type: �����������
-echo ���������������������ļ
-echo � 1 � _
-echo � 2 � _
-echo � 3 � _
-echo � 4 � _
-echo � 5 � _
-echo �����ļ
+echo º Choose a _ type: ÉÄÄÄÄÄÄÄÄÄÄ
+echo ÌÄÄÄÄÄËÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ¼
+echo º 1 º _
+echo º 2 º _
+echo º 3 º _
+echo º 4 º _
+echo º 5 º _
+echo ÈÄÄÄÄÄ¼
 echo.
 set _choice=0
 set _=1
@@ -769,11 +766,11 @@ goto confirmation
 
 :filenotfound
 cls
-echo �IIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIII�
-echo �                HAHAAAAAHAAAAAAAAAA                �
-echo �  ERROR ERROR ERROR FILE NOT FOUND FILE NOT FOUND  �
-echo �                HAHAAAAAHAAAAAAAAAA                �
-echo EIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIII�
+echo IIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIII¯
+echo §                HAHAAAAAHAAAAAAAAAA                §
+echo §  ERROR ERROR ERROR FILE NOT FOUND FILE NOT FOUND  §
+echo §                HAHAAAAAHAAAAAAAAAA                §
+echo EIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIII¬
 echo The %virusname% file could not be found! Oh no! Try freaking out.
 pause
 cls 
