@@ -1,7 +1,6 @@
 ﻿==================================================================
-
-Fake Virus Pack for Windows:
-Package version: 3.3.0 (19/01/2023) 
+## Fake Virus Pack for Windows:
+'Package version: 3.3.0 (19/01/2023)'
 
 By L-Studios.
 
