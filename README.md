@@ -52,7 +52,6 @@ Use this weapon wisely.
 Don't make your little bro cry (too much)
 
 ### License
-====== Boring legal stuff ====== more on the LICENSE text ======
 
 Distributed under a Creative Commons license (Attribution 3.0 Unported).
 This program is free software; you can redistribute it and/or 
@@ -63,6 +62,7 @@ This program is distributed in the hope that it will be useful,
 but WITHOUT ANY WARRANTY; without even the tacit guarantee of 
 MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. 
 See the GNU General Public License for more details (see http://www.gnu.org/licenses).
-====================================================================
 
-The author (L-Studios) assumes no responsibility for illegal or abusing use of this pack (not that it's really possible).
+<hr>
+
+`The author (L-Studios) assumes no responsibility for illegal or abusing use of this pack (not that it's really possible).`
