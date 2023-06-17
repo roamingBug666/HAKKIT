@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+<head>
+<hta:application
+applicationname="PrizeMaze"
+version="6.66"
+maximizebutton="yes"
+minimizebutton="no"
+sysmenu="no"
+Caption="no"
+windowstate="maximize"/>
+
+	<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+	<meta charset="utf-8">
+	<meta http-equiv="x-ua-compatible" content="ie=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Supermaze</title>
+	<meta name="description" content="Play the maze. Navigate your mouse through it to get a cool prize at the end!">
+	<script src="jump_files/maze.js"></script>	
+	<link rel="stylesheet" href="jump_files/maze.css">
+</head>
+<body>
+<div id="maze" class="level1 normalcursor">
+	<div class="wall lev1" id="w1"></div>
+	<div class="wall lev1" id="w2"></div>
+	<div class="wall lev1" id="w3"></div>
+	<div class="wall lev1" id="w4"></div>
+	<div class="wall lev1" id="w5"></div>
+	
+	<div class="wall lev2" id="w6"></div>
+	<div class="wall lev2" id="w7"></div>
+	<div class="wall lev2" id="w8"></div>
+	<div class="wall lev2" id="w9"></div>
+	<div class="wall lev2" id="w10"></div>
+	<div class="wall lev2" id="w11"></div>
+	<div class="wall lev2" id="w12"></div>
+	<div class="wall lev2" id="w13"></div>
+	
+	<div class="wall lev3" id="w14"></div>
+	<div class="wall lev3" id="w15"></div>
+	<div class="wall lev3" id="w16"></div>
+	<div class="wall lev3" id="w17"></div>
+	<div class="wall lev3" id="w18"></div>
+	<div class="wall lev3" id="w19"></div>
+	<div class="wall lev3" id="w20"></div>
+	<div class="wall lev3" id="w21"></div>
+	<div class="wall lev3" id="w22"></div>
+	<div class="wall lev3" id="w23"></div>
+	<div class="wall lev3" id="w24"></div>
+	<div class="wall lev3" id="w25"></div>
+	
+	<div id="start">START</div>
+	<div id="finish"><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div>
+	<div class="scarehere"></div>
+	<div class="scarehere" id="s2"></div>
+	<div class="scarehere" id="s3"></div>
+	<div id="level">Level 1</div>
+	<div id="jumpscare"><img src="jump_files/scary.jpg" alt="jump scare"></div>
+</div>
+<div class="article">
+<div id="closeArticle" class="hideinstructions">
+×
+</div>
+<article>
+	<h1>Maze Game (Cursor precision test)</h1>
+	<p>Navigate your mouse through the maze to get an amazing prize at the fifth level!</p>
+	<p><strong>Make sure to maximize this window!</strong></p>
+	<p>Click the Start button with your mouse to get started. Try to navigate through the maze and reach the checkered finish flag.</p>
+	<p>The next level is automatically loaded when you reach the finish line. The maze gets more complicated and the finish line will be repositioned.</p>
+</article>
+</div>
+
+<audio id="audioplayer"><source src="jump_files/scream.mp3" type="audio/mp3"></audio>
+
+<img src="jump_files/scary.jpg" alt="oh man... this is ruined" class="preload">
+
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-199423898-1');
+</script>
+  
+</body></html>

