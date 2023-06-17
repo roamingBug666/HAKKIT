@@ -45,9 +45,9 @@ Create a shortcut to the Control Panel anywhere, and you can use the `HAKKIT_FIL
 
 ### General
 **Be warned**: The `Control Panel S2` is a deathtrap; it's for intruders who don't know the password, who will be definitely falling into this one.
-The `Get time` is a window which spits out the current time in a cool way.
-The `Wiring Panel` aka settings is where you change the theme and read some instructions; It's apparently a years-old WIP that doues nothing else unfortunately.
-The other menu items are pretty self-explanatory.
+- The `Get time` is a window which spits out the current time in a cool way.
+- The `Wiring Panel` aka settings is where you change the theme and read some instructions; It's apparently a years-old WIP that doues nothing else unfortunately.
+- The other menu items are pretty self-explanatory.
 Use this weapon wisely.
 Don't make your little bro cry (too much)
 
@@ -55,23 +55,14 @@ Don't make your little bro cry (too much)
 ====== Boring legal stuff ====== more on the LICENSE text ======
 
 Distributed under a Creative Commons license (Attribution 3.0 Unported).
-Licensed under the following license:
-
-
- Copyright (C) 2021 L-Studios.
-
-
-
 This program is free software; you can redistribute it and/or 
 modify under the terms of the GNU General Public License as
  published by the Free Software Foundation; either version 3 of the 
 license, or (at your option) any later version. 
-
 This program is distributed in the hope that it will be useful, 
 but WITHOUT ANY WARRANTY; without even the tacit guarantee of 
 MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. 
 See the GNU General Public License for more details (see http://www.gnu.org/licenses).
-
 ====================================================================
 
 The author (L-Studios) assumes no responsibility for illegal or abusing use of this pack (not that it's really possible).
